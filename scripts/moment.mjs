@@ -1,6 +1,5 @@
 import fs from "fs/promises"
 
-
 /**
  * @typedef {Record<string, string>} TimezoneMap
  */
@@ -8,26 +7,6 @@ import fs from "fs/promises"
 /**
  * @typedef {Record<string, string> CountryCodeMap
  */
-
-/**
- * Converts a string to title case.
- * @param {string} str
- * @returns {string}
- */
-const toTitleCase = (str) => {
-	// Split the string into an array of words.
-	const words = str.split(" ")
-
-	// For each word, capitalize the first letter.
-	const capitalized = words.map(word => {
-		const first = word[0].toUpperCase()
-		const rest = word.slice(1)
-		return first + rest
-	})
-
-	// Join the words back together.
-	return capitalized.join(" ")
-}
 
 /**
  * Downloads the latest moment timezone data from the Moment Timezone GitHub repository.
@@ -39,7 +18,20 @@ const downloadMoment = async () => {
 	const data = await response.json()
 
 	// Overwrite the existing data/download.json file with the latest data.
-	await fs.writeFile("../data/download.json", JSON.stringify(data, null, 2))
+	await fs.writeFile("../data/tz-download.json", JSON.stringify(data, null, 2))
+}
+
+/**
+ * Downloads ISO 3166-1 country codes from the ISO 3166 GitHub repository.	 
+*/
+const downloadISO = async () => {
+	const url = "https://raw.githubusercontent.com/biter777/countries/master/data/iso-codes/data_iso_3166-1.json"
+
+	const response = await fetch(url)
+	const data = await response.json()
+
+	// Overwrite the existing data/iso.json file with the latest data.
+	await fs.writeFile("../data/iso-download.json", JSON.stringify(data['3166-1'], null, 2))
 }
 
 /**
@@ -62,7 +54,8 @@ const sortMap = (map) => {
  * @returns {Promise<TimezoneMap>}
  */
 const parseTimezones = async () => {
-	const { countries, zones } = JSON.parse(await fs.readFile("../data/download.json"))
+	const { countries, zones } = JSON.parse(await fs.readFile("../data/tz-download.json"))
+	const iso = JSON.parse(await fs.readFile("../data/iso-download.json"))
 
 	/** @type {TimezoneMap} */
 	const timezones = {}
@@ -72,8 +65,9 @@ const parseTimezones = async () => {
 
 	for (const zone of Object.keys(zones)) {
 		const country = countries[ zones[ zone ].countries[ 0 ] ]
-		const name = toTitleCase(country.name)
 		const abbr = country.abbr
+		const iso_country = iso.find(country => country.alpha_2 === abbr)
+		const name = iso_country.common_name ?? iso_country.name
 
 		timezones[ zone ] = abbr
 		countryCodes[ abbr ] = name
@@ -89,4 +83,5 @@ const parseTimezones = async () => {
 }
 
 await downloadMoment()
+await downloadISO()
 await parseTimezones()
