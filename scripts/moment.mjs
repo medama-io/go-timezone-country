@@ -1,13 +1,12 @@
 import fs from "fs/promises"
 
+
 /**
- * @typedef {Object} Country
- * @property {string} name
- * @property {string} code
+ * @typedef {Record<string, string>} TimezoneMap
  */
 
 /**
- * @typedef {Record<string, Country>} TimezoneMap
+ * @typedef {Record<string, string> CountryCodeMap
  */
 
 /**
@@ -44,6 +43,21 @@ const downloadMoment = async () => {
 }
 
 /**
+ * Sorts a map by the name of the values.
+ * @param {Record<string, string>} map
+ * @returns {Record<string, string>}
+ */
+const sortMap = (map) => {
+	const sorted = Object.fromEntries(Object.entries(map).sort((a, b) => {
+		if (a[1].name < b[1].name) return -1
+		if (a[1].name > b[1].name) return 1
+		return 0
+	}))
+
+	return sorted
+}
+
+/**
  * Parses the moment timezone data and returns an array of countries.
  * @returns {Promise<TimezoneMap>}
  */
@@ -53,23 +67,25 @@ const parseTimezones = async () => {
 	/** @type {TimezoneMap} */
 	const timezones = {}
 
+	/** @type {CountryCodeMap} */
+	const countryCodes = {}
+
 	for (const zone of Object.keys(zones)) {
 		const country = countries[ zones[ zone ].countries[ 0 ] ]
-		timezones[ zone ] = {
-			name: toTitleCase(country.name),
-			code: country.abbr,
-		}
+		const name = toTitleCase(country.name)
+		const abbr = country.abbr
+
+		timezones[ zone ] = abbr
+		countryCodes[ abbr ] = name
 	}
 	
 	// Sort the timezones by name.
-	const sorted = Object.fromEntries(Object.entries(timezones).sort((a, b) => {
-		if (a[1].name < b[1].name) return -1
-		if (a[1].name > b[1].name) return 1
-		return 0
-	}))
+	const timezonesSorted = sortMap(timezones)
+	const countryCodesSorted = sortMap(countryCodes)
 
-	// Write the parsed data to the data/final.json file.
-	await fs.writeFile("../data/final.json", JSON.stringify(sorted, null, 2))
+	// Write the parsed data to files.
+	await fs.writeFile("../data/tzcode.json", JSON.stringify(timezonesSorted, null, 2))
+	await fs.writeFile("../data/codecountry.json", JSON.stringify(countryCodesSorted, null, 2))
 }
 
 await downloadMoment()
