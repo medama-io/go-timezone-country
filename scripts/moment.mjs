@@ -40,7 +40,7 @@ const downloadMoment = async () => {
 	const data = await response.json()
 
 	// Overwrite the existing data/download.json file with the latest data.
-	await fs.writeFile("../data/download.json", JSON.stringify(data.countries, null, 2))
+	await fs.writeFile("../data/download.json", JSON.stringify(data, null, 2))
 }
 
 /**
@@ -48,23 +48,19 @@ const downloadMoment = async () => {
  * @returns {Promise<TimezoneMap>}
  */
 const parseTimezones = async () => {
-	const data = await fs.readFile("../data/download.json")
-	const json = JSON.parse(data)
-	const keys = Object.keys(json)
+	const { countries, zones } = JSON.parse(await fs.readFile("../data/download.json"))
 
 	/** @type {TimezoneMap} */
 	const timezones = {}
 
-	// For each country in data, we want to map the first zone as the key and the country as the value.
-	for (const key of keys) {
-		const country = json[key]
-		const zone = country.zones[0]
+	for (const zone of Object.keys(zones)) {
+		const country = countries[ zones[ zone ].countries[ 0 ] ]
 		timezones[ zone ] = {
 			name: toTitleCase(country.name),
-			code: key,
+			code: country.abbr,
 		}
 	}
-
+	
 	// Sort the timezones by name.
 	const sorted = Object.fromEntries(Object.entries(timezones).sort((a, b) => {
 		if (a[1].name < b[1].name) return -1
