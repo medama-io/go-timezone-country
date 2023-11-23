@@ -65,8 +65,15 @@ const parseTimezones = async () => {
 		}
 	}
 
+	// Sort the timezones by name.
+	const sorted = Object.fromEntries(Object.entries(timezones).sort((a, b) => {
+		if (a[1].name < b[1].name) return -1
+		if (a[1].name > b[1].name) return 1
+		return 0
+	}))
+
 	// Write the parsed data to the data/final.json file.
-	await fs.writeFile("../data/final.json", JSON.stringify(timezones, null, 2))
+	await fs.writeFile("../data/final.json", JSON.stringify(sorted, null, 2))
 }
 
 await downloadMoment()
