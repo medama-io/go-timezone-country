@@ -1,0 +1,1674 @@
+{
+  "Europe/Andorra": {
+    "name": "Andorra",
+    "code": "AD"
+  },
+  "Asia/Dubai": {
+    "name": "French S. Terr.",
+    "code": "TF"
+  },
+  "Asia/Kabul": {
+    "name": "Afghanistan",
+    "code": "AF"
+  },
+  "America/Puerto_Rico": {
+    "name": "Virgin Islands (US)",
+    "code": "VI"
+  },
+  "Europe/Tirane": {
+    "name": "Albania",
+    "code": "AL"
+  },
+  "Asia/Yerevan": {
+    "name": "Armenia",
+    "code": "AM"
+  },
+  "Africa/Lagos": {
+    "name": "Nigeria",
+    "code": "NG"
+  },
+  "Antarctica/Casey": {
+    "name": "Antarctica",
+    "code": "AQ"
+  },
+  "America/Argentina/Buenos_Aires": {
+    "name": "Argentina",
+    "code": "AR"
+  },
+  "Pacific/Pago_Pago": {
+    "name": "US Minor Outlying Islands",
+    "code": "UM"
+  },
+  "Europe/Vienna": {
+    "name": "Austria",
+    "code": "AT"
+  },
+  "Australia/Lord_Howe": {
+    "name": "Australia",
+    "code": "AU"
+  },
+  "Europe/Helsinki": {
+    "name": "Finland",
+    "code": "FI"
+  },
+  "Asia/Baku": {
+    "name": "Azerbaijan",
+    "code": "AZ"
+  },
+  "Europe/Belgrade": {
+    "name": "Slovenia",
+    "code": "SI"
+  },
+  "America/Barbados": {
+    "name": "Barbados",
+    "code": "BB"
+  },
+  "Asia/Dhaka": {
+    "name": "Bangladesh",
+    "code": "BD"
+  },
+  "Europe/Brussels": {
+    "name": "Netherlands",
+    "code": "NL"
+  },
+  "Africa/Abidjan": {
+    "name": "Togo",
+    "code": "TG"
+  },
+  "Europe/Sofia": {
+    "name": "Bulgaria",
+    "code": "BG"
+  },
+  "Asia/Qatar": {
+    "name": "Qatar",
+    "code": "QA"
+  },
+  "Africa/Maputo": {
+    "name": "Zimbabwe",
+    "code": "ZW"
+  },
+  "Atlantic/Bermuda": {
+    "name": "Bermuda",
+    "code": "BM"
+  },
+  "Asia/Kuching": {
+    "name": "Malaysia",
+    "code": "MY"
+  },
+  "America/La_Paz": {
+    "name": "Bolivia",
+    "code": "BO"
+  },
+  "America/Noronha": {
+    "name": "Brazil",
+    "code": "BR"
+  },
+  "America/Toronto": {
+    "name": "Bahamas",
+    "code": "BS"
+  },
+  "Asia/Thimphu": {
+    "name": "Bhutan",
+    "code": "BT"
+  },
+  "Europe/Minsk": {
+    "name": "Belarus",
+    "code": "BY"
+  },
+  "America/Belize": {
+    "name": "Belize",
+    "code": "BZ"
+  },
+  "America/St_Johns": {
+    "name": "Canada",
+    "code": "CA"
+  },
+  "Asia/Yangon": {
+    "name": "Myanmar (Burma)",
+    "code": "MM"
+  },
+  "Europe/Zurich": {
+    "name": "Liechtenstein",
+    "code": "LI"
+  },
+  "Pacific/Rarotonga": {
+    "name": "Cook Islands",
+    "code": "CK"
+  },
+  "America/Santiago": {
+    "name": "Chile",
+    "code": "CL"
+  },
+  "Asia/Shanghai": {
+    "name": "China",
+    "code": "CN"
+  },
+  "America/Bogota": {
+    "name": "Colombia",
+    "code": "CO"
+  },
+  "America/Costa_Rica": {
+    "name": "Costa Rica",
+    "code": "CR"
+  },
+  "America/Havana": {
+    "name": "Cuba",
+    "code": "CU"
+  },
+  "Atlantic/Cape_Verde": {
+    "name": "Cape Verde",
+    "code": "CV"
+  },
+  "Asia/Bangkok": {
+    "name": "Vietnam",
+    "code": "VN"
+  },
+  "Asia/Nicosia": {
+    "name": "Cyprus",
+    "code": "CY"
+  },
+  "Europe/Prague": {
+    "name": "Slovakia",
+    "code": "SK"
+  },
+  "Africa/Nairobi": {
+    "name": "Mayotte",
+    "code": "YT"
+  },
+  "Europe/Berlin": {
+    "name": "Svalbard & Jan Mayen",
+    "code": "SJ"
+  },
+  "America/Santo_Domingo": {
+    "name": "Dominican Republic",
+    "code": "DO"
+  },
+  "Africa/Algiers": {
+    "name": "Algeria",
+    "code": "DZ"
+  },
+  "America/Guayaquil": {
+    "name": "Ecuador",
+    "code": "EC"
+  },
+  "Europe/Tallinn": {
+    "name": "Estonia",
+    "code": "EE"
+  },
+  "Africa/Cairo": {
+    "name": "Egypt",
+    "code": "EG"
+  },
+  "Africa/El_Aaiun": {
+    "name": "Western Sahara",
+    "code": "EH"
+  },
+  "Europe/Madrid": {
+    "name": "Spain",
+    "code": "ES"
+  },
+  "Pacific/Fiji": {
+    "name": "Fiji",
+    "code": "FJ"
+  },
+  "Atlantic/Stanley": {
+    "name": "Falkland Islands",
+    "code": "FK"
+  },
+  "Pacific/Kosrae": {
+    "name": "Micronesia",
+    "code": "FM"
+  },
+  "Atlantic/Faroe": {
+    "name": "Faroe Islands",
+    "code": "FO"
+  },
+  "Europe/Paris": {
+    "name": "Monaco",
+    "code": "MC"
+  },
+  "Europe/London": {
+    "name": "Jersey",
+    "code": "JE"
+  },
+  "Asia/Tbilisi": {
+    "name": "Georgia",
+    "code": "GE"
+  },
+  "America/Cayenne": {
+    "name": "French Guiana",
+    "code": "GF"
+  },
+  "Europe/Gibraltar": {
+    "name": "Gibraltar",
+    "code": "GI"
+  },
+  "America/Nuuk": {
+    "name": "Greenland",
+    "code": "GL"
+  },
+  "Europe/Athens": {
+    "name": "Greece",
+    "code": "GR"
+  },
+  "Atlantic/South_Georgia": {
+    "name": "South Georgia & The South Sandwich Islands",
+    "code": "GS"
+  },
+  "America/Guatemala": {
+    "name": "Guatemala",
+    "code": "GT"
+  },
+  "Pacific/Guam": {
+    "name": "Northern Mariana Islands",
+    "code": "MP"
+  },
+  "Africa/Bissau": {
+    "name": "Guinea-Bissau",
+    "code": "GW"
+  },
+  "America/Guyana": {
+    "name": "Guyana",
+    "code": "GY"
+  },
+  "Asia/Hong_Kong": {
+    "name": "Hong Kong",
+    "code": "HK"
+  },
+  "America/Tegucigalpa": {
+    "name": "Honduras",
+    "code": "HN"
+  },
+  "America/Port-au-Prince": {
+    "name": "Haiti",
+    "code": "HT"
+  },
+  "Europe/Budapest": {
+    "name": "Hungary",
+    "code": "HU"
+  },
+  "Asia/Jakarta": {
+    "name": "Indonesia",
+    "code": "ID"
+  },
+  "Europe/Dublin": {
+    "name": "Ireland",
+    "code": "IE"
+  },
+  "Asia/Jerusalem": {
+    "name": "Israel",
+    "code": "IL"
+  },
+  "Asia/Kolkata": {
+    "name": "India",
+    "code": "IN"
+  },
+  "Indian/Chagos": {
+    "name": "British Indian Ocean Territory",
+    "code": "IO"
+  },
+  "Asia/Baghdad": {
+    "name": "Iraq",
+    "code": "IQ"
+  },
+  "Asia/Tehran": {
+    "name": "Iran",
+    "code": "IR"
+  },
+  "Europe/Rome": {
+    "name": "Vatican City",
+    "code": "VA"
+  },
+  "America/Jamaica": {
+    "name": "Jamaica",
+    "code": "JM"
+  },
+  "Asia/Amman": {
+    "name": "Jordan",
+    "code": "JO"
+  },
+  "Asia/Tokyo": {
+    "name": "Japan",
+    "code": "JP"
+  },
+  "Asia/Bishkek": {
+    "name": "Kyrgyzstan",
+    "code": "KG"
+  },
+  "Pacific/Tarawa": {
+    "name": "Wallis & Futuna",
+    "code": "WF"
+  },
+  "Asia/Pyongyang": {
+    "name": "Korea (North)",
+    "code": "KP"
+  },
+  "Asia/Seoul": {
+    "name": "Korea (South)",
+    "code": "KR"
+  },
+  "Asia/Riyadh": {
+    "name": "Yemen",
+    "code": "YE"
+  },
+  "America/Panama": {
+    "name": "Panama",
+    "code": "PA"
+  },
+  "Asia/Almaty": {
+    "name": "Kazakhstan",
+    "code": "KZ"
+  },
+  "Asia/Beirut": {
+    "name": "Lebanon",
+    "code": "LB"
+  },
+  "Asia/Colombo": {
+    "name": "Sri Lanka",
+    "code": "LK"
+  },
+  "Africa/Monrovia": {
+    "name": "Liberia",
+    "code": "LR"
+  },
+  "Africa/Johannesburg": {
+    "name": "South Africa",
+    "code": "ZA"
+  },
+  "Europe/Vilnius": {
+    "name": "Lithuania",
+    "code": "LT"
+  },
+  "Europe/Riga": {
+    "name": "Latvia",
+    "code": "LV"
+  },
+  "Africa/Tripoli": {
+    "name": "Libya",
+    "code": "LY"
+  },
+  "Africa/Casablanca": {
+    "name": "Morocco",
+    "code": "MA"
+  },
+  "Europe/Chisinau": {
+    "name": "Moldova",
+    "code": "MD"
+  },
+  "Asia/Ulaanbaatar": {
+    "name": "Mongolia",
+    "code": "MN"
+  },
+  "Asia/Macau": {
+    "name": "Macau",
+    "code": "MO"
+  },
+  "America/Martinique": {
+    "name": "Martinique",
+    "code": "MQ"
+  },
+  "Europe/Malta": {
+    "name": "Malta",
+    "code": "MT"
+  },
+  "Indian/Mauritius": {
+    "name": "Mauritius",
+    "code": "MU"
+  },
+  "Indian/Maldives": {
+    "name": "Maldives",
+    "code": "MV"
+  },
+  "America/Mexico_City": {
+    "name": "Mexico",
+    "code": "MX"
+  },
+  "Africa/Windhoek": {
+    "name": "Namibia",
+    "code": "NA"
+  },
+  "Pacific/Noumea": {
+    "name": "New Caledonia",
+    "code": "NC"
+  },
+  "Pacific/Norfolk": {
+    "name": "Norfolk Island",
+    "code": "NF"
+  },
+  "America/Managua": {
+    "name": "Nicaragua",
+    "code": "NI"
+  },
+  "Asia/Kathmandu": {
+    "name": "Nepal",
+    "code": "NP"
+  },
+  "Pacific/Nauru": {
+    "name": "Nauru",
+    "code": "NR"
+  },
+  "Pacific/Niue": {
+    "name": "Niue",
+    "code": "NU"
+  },
+  "Pacific/Auckland": {
+    "name": "New Zealand",
+    "code": "NZ"
+  },
+  "America/Lima": {
+    "name": "Peru",
+    "code": "PE"
+  },
+  "Pacific/Tahiti": {
+    "name": "French Polynesia",
+    "code": "PF"
+  },
+  "Pacific/Port_Moresby": {
+    "name": "Papua New Guinea",
+    "code": "PG"
+  },
+  "Asia/Manila": {
+    "name": "Philippines",
+    "code": "PH"
+  },
+  "Asia/Karachi": {
+    "name": "Pakistan",
+    "code": "PK"
+  },
+  "Europe/Warsaw": {
+    "name": "Poland",
+    "code": "PL"
+  },
+  "America/Miquelon": {
+    "name": "St Pierre & Miquelon",
+    "code": "PM"
+  },
+  "Pacific/Pitcairn": {
+    "name": "Pitcairn",
+    "code": "PN"
+  },
+  "Asia/Gaza": {
+    "name": "Palestine",
+    "code": "PS"
+  },
+  "Europe/Lisbon": {
+    "name": "Portugal",
+    "code": "PT"
+  },
+  "Pacific/Palau": {
+    "name": "Palau",
+    "code": "PW"
+  },
+  "America/Asuncion": {
+    "name": "Paraguay",
+    "code": "PY"
+  },
+  "Europe/Bucharest": {
+    "name": "Romania",
+    "code": "RO"
+  },
+  "Europe/Kaliningrad": {
+    "name": "Russia",
+    "code": "RU"
+  },
+  "Pacific/Guadalcanal": {
+    "name": "Solomon Islands",
+    "code": "SB"
+  },
+  "Africa/Khartoum": {
+    "name": "Sudan",
+    "code": "SD"
+  },
+  "Asia/Singapore": {
+    "name": "Singapore",
+    "code": "SG"
+  },
+  "America/Paramaribo": {
+    "name": "Suriname",
+    "code": "SR"
+  },
+  "Africa/Juba": {
+    "name": "South Sudan",
+    "code": "SS"
+  },
+  "Africa/Sao_Tome": {
+    "name": "Sao Tome & Principe",
+    "code": "ST"
+  },
+  "America/El_Salvador": {
+    "name": "El Salvador",
+    "code": "SV"
+  },
+  "Asia/Damascus": {
+    "name": "Syria",
+    "code": "SY"
+  },
+  "America/Grand_Turk": {
+    "name": "Turks & Caicos Is",
+    "code": "TC"
+  },
+  "Africa/Ndjamena": {
+    "name": "Chad",
+    "code": "TD"
+  },
+  "Asia/Dushanbe": {
+    "name": "Tajikistan",
+    "code": "TJ"
+  },
+  "Pacific/Fakaofo": {
+    "name": "Tokelau",
+    "code": "TK"
+  },
+  "Asia/Dili": {
+    "name": "East Timor",
+    "code": "TL"
+  },
+  "Asia/Ashgabat": {
+    "name": "Turkmenistan",
+    "code": "TM"
+  },
+  "Africa/Tunis": {
+    "name": "Tunisia",
+    "code": "TN"
+  },
+  "Pacific/Tongatapu": {
+    "name": "Tonga",
+    "code": "TO"
+  },
+  "Europe/Istanbul": {
+    "name": "Turkey",
+    "code": "TR"
+  },
+  "Asia/Taipei": {
+    "name": "Taiwan",
+    "code": "TW"
+  },
+  "Europe/Simferopol": {
+    "name": "Ukraine",
+    "code": "UA"
+  },
+  "America/New_York": {
+    "name": "United States",
+    "code": "US"
+  },
+  "America/Montevideo": {
+    "name": "Uruguay",
+    "code": "UY"
+  },
+  "Asia/Samarkand": {
+    "name": "Uzbekistan",
+    "code": "UZ"
+  },
+  "America/Caracas": {
+    "name": "Venezuela",
+    "code": "VE"
+  },
+  "Pacific/Efate": {
+    "name": "Vanuatu",
+    "code": "VU"
+  },
+  "Pacific/Apia": {
+    "name": "Samoa (western)",
+    "code": "WS"
+  },
+  "America/Antigua": {
+    "name": "Antigua & Barbuda",
+    "code": "AG"
+  },
+  "America/Anguilla": {
+    "name": "Anguilla",
+    "code": "AI"
+  },
+  "Africa/Luanda": {
+    "name": "Angola",
+    "code": "AO"
+  },
+  "Antarctica/Davis": {
+    "name": "Antarctica",
+    "code": "AQ"
+  },
+  "Antarctica/Mawson": {
+    "name": "Antarctica",
+    "code": "AQ"
+  },
+  "Antarctica/Palmer": {
+    "name": "Antarctica",
+    "code": "AQ"
+  },
+  "Antarctica/Rothera": {
+    "name": "Antarctica",
+    "code": "AQ"
+  },
+  "Antarctica/Troll": {
+    "name": "Antarctica",
+    "code": "AQ"
+  },
+  "Asia/Urumqi": {
+    "name": "Antarctica",
+    "code": "AQ"
+  },
+  "Antarctica/McMurdo": {
+    "name": "Antarctica",
+    "code": "AQ"
+  },
+  "Antarctica/DumontDUrville": {
+    "name": "Antarctica",
+    "code": "AQ"
+  },
+  "Antarctica/Syowa": {
+    "name": "Antarctica",
+    "code": "AQ"
+  },
+  "Antarctica/Vostok": {
+    "name": "Antarctica",
+    "code": "AQ"
+  },
+  "America/Argentina/Cordoba": {
+    "name": "Argentina",
+    "code": "AR"
+  },
+  "America/Argentina/Salta": {
+    "name": "Argentina",
+    "code": "AR"
+  },
+  "America/Argentina/Jujuy": {
+    "name": "Argentina",
+    "code": "AR"
+  },
+  "America/Argentina/Tucuman": {
+    "name": "Argentina",
+    "code": "AR"
+  },
+  "America/Argentina/Catamarca": {
+    "name": "Argentina",
+    "code": "AR"
+  },
+  "America/Argentina/La_Rioja": {
+    "name": "Argentina",
+    "code": "AR"
+  },
+  "America/Argentina/San_Juan": {
+    "name": "Argentina",
+    "code": "AR"
+  },
+  "America/Argentina/Mendoza": {
+    "name": "Argentina",
+    "code": "AR"
+  },
+  "America/Argentina/San_Luis": {
+    "name": "Argentina",
+    "code": "AR"
+  },
+  "America/Argentina/Rio_Gallegos": {
+    "name": "Argentina",
+    "code": "AR"
+  },
+  "America/Argentina/Ushuaia": {
+    "name": "Argentina",
+    "code": "AR"
+  },
+  "Antarctica/Macquarie": {
+    "name": "Australia",
+    "code": "AU"
+  },
+  "Australia/Hobart": {
+    "name": "Australia",
+    "code": "AU"
+  },
+  "Australia/Melbourne": {
+    "name": "Australia",
+    "code": "AU"
+  },
+  "Australia/Sydney": {
+    "name": "Australia",
+    "code": "AU"
+  },
+  "Australia/Broken_Hill": {
+    "name": "Australia",
+    "code": "AU"
+  },
+  "Australia/Brisbane": {
+    "name": "Australia",
+    "code": "AU"
+  },
+  "Australia/Lindeman": {
+    "name": "Australia",
+    "code": "AU"
+  },
+  "Australia/Adelaide": {
+    "name": "Australia",
+    "code": "AU"
+  },
+  "Australia/Darwin": {
+    "name": "Australia",
+    "code": "AU"
+  },
+  "Australia/Perth": {
+    "name": "Australia",
+    "code": "AU"
+  },
+  "Australia/Eucla": {
+    "name": "Australia",
+    "code": "AU"
+  },
+  "America/Aruba": {
+    "name": "Aruba",
+    "code": "AW"
+  },
+  "Europe/Mariehamn": {
+    "name": "Åland Islands",
+    "code": "AX"
+  },
+  "Europe/Sarajevo": {
+    "name": "Bosnia & Herzegovina",
+    "code": "BA"
+  },
+  "Africa/Ouagadougou": {
+    "name": "Burkina Faso",
+    "code": "BF"
+  },
+  "Asia/Bahrain": {
+    "name": "Bahrain",
+    "code": "BH"
+  },
+  "Africa/Bujumbura": {
+    "name": "Burundi",
+    "code": "BI"
+  },
+  "Africa/Porto-Novo": {
+    "name": "Benin",
+    "code": "BJ"
+  },
+  "America/St_Barthelemy": {
+    "name": "St Barthelemy",
+    "code": "BL"
+  },
+  "Asia/Brunei": {
+    "name": "Brunei",
+    "code": "BN"
+  },
+  "America/Kralendijk": {
+    "name": "Caribbean NL",
+    "code": "BQ"
+  },
+  "America/Belem": {
+    "name": "Brazil",
+    "code": "BR"
+  },
+  "America/Fortaleza": {
+    "name": "Brazil",
+    "code": "BR"
+  },
+  "America/Recife": {
+    "name": "Brazil",
+    "code": "BR"
+  },
+  "America/Araguaina": {
+    "name": "Brazil",
+    "code": "BR"
+  },
+  "America/Maceio": {
+    "name": "Brazil",
+    "code": "BR"
+  },
+  "America/Bahia": {
+    "name": "Brazil",
+    "code": "BR"
+  },
+  "America/Sao_Paulo": {
+    "name": "Brazil",
+    "code": "BR"
+  },
+  "America/Campo_Grande": {
+    "name": "Brazil",
+    "code": "BR"
+  },
+  "America/Cuiaba": {
+    "name": "Brazil",
+    "code": "BR"
+  },
+  "America/Santarem": {
+    "name": "Brazil",
+    "code": "BR"
+  },
+  "America/Porto_Velho": {
+    "name": "Brazil",
+    "code": "BR"
+  },
+  "America/Boa_Vista": {
+    "name": "Brazil",
+    "code": "BR"
+  },
+  "America/Manaus": {
+    "name": "Brazil",
+    "code": "BR"
+  },
+  "America/Eirunepe": {
+    "name": "Brazil",
+    "code": "BR"
+  },
+  "America/Rio_Branco": {
+    "name": "Brazil",
+    "code": "BR"
+  },
+  "America/Nassau": {
+    "name": "Bahamas",
+    "code": "BS"
+  },
+  "Africa/Gaborone": {
+    "name": "Botswana",
+    "code": "BW"
+  },
+  "America/Halifax": {
+    "name": "Canada",
+    "code": "CA"
+  },
+  "America/Glace_Bay": {
+    "name": "Canada",
+    "code": "CA"
+  },
+  "America/Moncton": {
+    "name": "Canada",
+    "code": "CA"
+  },
+  "America/Goose_Bay": {
+    "name": "Canada",
+    "code": "CA"
+  },
+  "America/Iqaluit": {
+    "name": "Canada",
+    "code": "CA"
+  },
+  "America/Winnipeg": {
+    "name": "Canada",
+    "code": "CA"
+  },
+  "America/Resolute": {
+    "name": "Canada",
+    "code": "CA"
+  },
+  "America/Rankin_Inlet": {
+    "name": "Canada",
+    "code": "CA"
+  },
+  "America/Regina": {
+    "name": "Canada",
+    "code": "CA"
+  },
+  "America/Swift_Current": {
+    "name": "Canada",
+    "code": "CA"
+  },
+  "America/Edmonton": {
+    "name": "Canada",
+    "code": "CA"
+  },
+  "America/Cambridge_Bay": {
+    "name": "Canada",
+    "code": "CA"
+  },
+  "America/Inuvik": {
+    "name": "Canada",
+    "code": "CA"
+  },
+  "America/Dawson_Creek": {
+    "name": "Canada",
+    "code": "CA"
+  },
+  "America/Fort_Nelson": {
+    "name": "Canada",
+    "code": "CA"
+  },
+  "America/Whitehorse": {
+    "name": "Canada",
+    "code": "CA"
+  },
+  "America/Dawson": {
+    "name": "Canada",
+    "code": "CA"
+  },
+  "America/Vancouver": {
+    "name": "Canada",
+    "code": "CA"
+  },
+  "America/Phoenix": {
+    "name": "Canada",
+    "code": "CA"
+  },
+  "America/Blanc-Sablon": {
+    "name": "Canada",
+    "code": "CA"
+  },
+  "America/Atikokan": {
+    "name": "Canada",
+    "code": "CA"
+  },
+  "America/Creston": {
+    "name": "Canada",
+    "code": "CA"
+  },
+  "Indian/Cocos": {
+    "name": "Cocos (Keeling) Islands",
+    "code": "CC"
+  },
+  "Africa/Kinshasa": {
+    "name": "Congo (Dem. Rep.)",
+    "code": "CD"
+  },
+  "Africa/Lubumbashi": {
+    "name": "Congo (Dem. Rep.)",
+    "code": "CD"
+  },
+  "Africa/Bangui": {
+    "name": "Central African Rep.",
+    "code": "CF"
+  },
+  "Africa/Brazzaville": {
+    "name": "Congo (Rep.)",
+    "code": "CG"
+  },
+  "America/Punta_Arenas": {
+    "name": "Chile",
+    "code": "CL"
+  },
+  "Pacific/Easter": {
+    "name": "Chile",
+    "code": "CL"
+  },
+  "Africa/Douala": {
+    "name": "Cameroon",
+    "code": "CM"
+  },
+  "America/Curacao": {
+    "name": "Curaçao",
+    "code": "CW"
+  },
+  "Indian/Christmas": {
+    "name": "Christmas Island",
+    "code": "CX"
+  },
+  "Asia/Famagusta": {
+    "name": "Cyprus",
+    "code": "CY"
+  },
+  "Europe/Busingen": {
+    "name": "Germany",
+    "code": "DE"
+  },
+  "Africa/Djibouti": {
+    "name": "Djibouti",
+    "code": "DJ"
+  },
+  "Europe/Copenhagen": {
+    "name": "Denmark",
+    "code": "DK"
+  },
+  "America/Dominica": {
+    "name": "Dominica",
+    "code": "DM"
+  },
+  "Pacific/Galapagos": {
+    "name": "Ecuador",
+    "code": "EC"
+  },
+  "Africa/Asmara": {
+    "name": "Eritrea",
+    "code": "ER"
+  },
+  "Africa/Ceuta": {
+    "name": "Spain",
+    "code": "ES"
+  },
+  "Atlantic/Canary": {
+    "name": "Spain",
+    "code": "ES"
+  },
+  "Africa/Addis_Ababa": {
+    "name": "Ethiopia",
+    "code": "ET"
+  },
+  "Pacific/Chuuk": {
+    "name": "Micronesia",
+    "code": "FM"
+  },
+  "Pacific/Pohnpei": {
+    "name": "Micronesia",
+    "code": "FM"
+  },
+  "Africa/Libreville": {
+    "name": "Gabon",
+    "code": "GA"
+  },
+  "America/Grenada": {
+    "name": "Grenada",
+    "code": "GD"
+  },
+  "Europe/Guernsey": {
+    "name": "Guernsey",
+    "code": "GG"
+  },
+  "Africa/Accra": {
+    "name": "Ghana",
+    "code": "GH"
+  },
+  "America/Danmarkshavn": {
+    "name": "Greenland",
+    "code": "GL"
+  },
+  "America/Scoresbysund": {
+    "name": "Greenland",
+    "code": "GL"
+  },
+  "America/Thule": {
+    "name": "Greenland",
+    "code": "GL"
+  },
+  "Africa/Banjul": {
+    "name": "Gambia",
+    "code": "GM"
+  },
+  "Africa/Conakry": {
+    "name": "Guinea",
+    "code": "GN"
+  },
+  "America/Guadeloupe": {
+    "name": "Guadeloupe",
+    "code": "GP"
+  },
+  "Africa/Malabo": {
+    "name": "Equatorial Guinea",
+    "code": "GQ"
+  },
+  "Europe/Zagreb": {
+    "name": "Croatia",
+    "code": "HR"
+  },
+  "Asia/Pontianak": {
+    "name": "Indonesia",
+    "code": "ID"
+  },
+  "Asia/Makassar": {
+    "name": "Indonesia",
+    "code": "ID"
+  },
+  "Asia/Jayapura": {
+    "name": "Indonesia",
+    "code": "ID"
+  },
+  "Europe/Isle_of_Man": {
+    "name": "Isle Of Man",
+    "code": "IM"
+  },
+  "Atlantic/Reykjavik": {
+    "name": "Iceland",
+    "code": "IS"
+  },
+  "Europe/Jersey": {
+    "name": "Jersey",
+    "code": "JE"
+  },
+  "Asia/Phnom_Penh": {
+    "name": "Cambodia",
+    "code": "KH"
+  },
+  "Pacific/Kanton": {
+    "name": "Kiribati",
+    "code": "KI"
+  },
+  "Pacific/Kiritimati": {
+    "name": "Kiribati",
+    "code": "KI"
+  },
+  "Indian/Comoro": {
+    "name": "Comoros",
+    "code": "KM"
+  },
+  "America/St_Kitts": {
+    "name": "St Kitts & Nevis",
+    "code": "KN"
+  },
+  "Asia/Kuwait": {
+    "name": "Kuwait",
+    "code": "KW"
+  },
+  "America/Cayman": {
+    "name": "Cayman Islands",
+    "code": "KY"
+  },
+  "Asia/Qyzylorda": {
+    "name": "Kazakhstan",
+    "code": "KZ"
+  },
+  "Asia/Qostanay": {
+    "name": "Kazakhstan",
+    "code": "KZ"
+  },
+  "Asia/Aqtobe": {
+    "name": "Kazakhstan",
+    "code": "KZ"
+  },
+  "Asia/Aqtau": {
+    "name": "Kazakhstan",
+    "code": "KZ"
+  },
+  "Asia/Atyrau": {
+    "name": "Kazakhstan",
+    "code": "KZ"
+  },
+  "Asia/Oral": {
+    "name": "Kazakhstan",
+    "code": "KZ"
+  },
+  "Asia/Vientiane": {
+    "name": "Laos",
+    "code": "LA"
+  },
+  "America/St_Lucia": {
+    "name": "St Lucia",
+    "code": "LC"
+  },
+  "Europe/Vaduz": {
+    "name": "Liechtenstein",
+    "code": "LI"
+  },
+  "Africa/Maseru": {
+    "name": "Lesotho",
+    "code": "LS"
+  },
+  "Europe/Luxembourg": {
+    "name": "Luxembourg",
+    "code": "LU"
+  },
+  "Europe/Monaco": {
+    "name": "Monaco",
+    "code": "MC"
+  },
+  "Europe/Podgorica": {
+    "name": "Montenegro",
+    "code": "ME"
+  },
+  "America/Marigot": {
+    "name": "St Martin (French)",
+    "code": "MF"
+  },
+  "Indian/Antananarivo": {
+    "name": "Madagascar",
+    "code": "MG"
+  },
+  "Pacific/Kwajalein": {
+    "name": "Marshall Islands",
+    "code": "MH"
+  },
+  "Pacific/Majuro": {
+    "name": "Marshall Islands",
+    "code": "MH"
+  },
+  "Europe/Skopje": {
+    "name": "North Macedonia",
+    "code": "MK"
+  },
+  "Africa/Bamako": {
+    "name": "Mali",
+    "code": "ML"
+  },
+  "Asia/Hovd": {
+    "name": "Mongolia",
+    "code": "MN"
+  },
+  "Asia/Choibalsan": {
+    "name": "Mongolia",
+    "code": "MN"
+  },
+  "Pacific/Saipan": {
+    "name": "Northern Mariana Islands",
+    "code": "MP"
+  },
+  "Africa/Nouakchott": {
+    "name": "Mauritania",
+    "code": "MR"
+  },
+  "America/Montserrat": {
+    "name": "Montserrat",
+    "code": "MS"
+  },
+  "Africa/Blantyre": {
+    "name": "Malawi",
+    "code": "MW"
+  },
+  "America/Cancun": {
+    "name": "Mexico",
+    "code": "MX"
+  },
+  "America/Merida": {
+    "name": "Mexico",
+    "code": "MX"
+  },
+  "America/Monterrey": {
+    "name": "Mexico",
+    "code": "MX"
+  },
+  "America/Matamoros": {
+    "name": "Mexico",
+    "code": "MX"
+  },
+  "America/Chihuahua": {
+    "name": "Mexico",
+    "code": "MX"
+  },
+  "America/Ciudad_Juarez": {
+    "name": "Mexico",
+    "code": "MX"
+  },
+  "America/Ojinaga": {
+    "name": "Mexico",
+    "code": "MX"
+  },
+  "America/Mazatlan": {
+    "name": "Mexico",
+    "code": "MX"
+  },
+  "America/Bahia_Banderas": {
+    "name": "Mexico",
+    "code": "MX"
+  },
+  "America/Hermosillo": {
+    "name": "Mexico",
+    "code": "MX"
+  },
+  "America/Tijuana": {
+    "name": "Mexico",
+    "code": "MX"
+  },
+  "Asia/Kuala_Lumpur": {
+    "name": "Malaysia",
+    "code": "MY"
+  },
+  "Africa/Niamey": {
+    "name": "Niger",
+    "code": "NE"
+  },
+  "Europe/Amsterdam": {
+    "name": "Netherlands",
+    "code": "NL"
+  },
+  "Europe/Oslo": {
+    "name": "Norway",
+    "code": "NO"
+  },
+  "Pacific/Chatham": {
+    "name": "New Zealand",
+    "code": "NZ"
+  },
+  "Asia/Muscat": {
+    "name": "Oman",
+    "code": "OM"
+  },
+  "Pacific/Marquesas": {
+    "name": "French Polynesia",
+    "code": "PF"
+  },
+  "Pacific/Gambier": {
+    "name": "French Polynesia",
+    "code": "PF"
+  },
+  "Pacific/Bougainville": {
+    "name": "Papua New Guinea",
+    "code": "PG"
+  },
+  "Asia/Hebron": {
+    "name": "Palestine",
+    "code": "PS"
+  },
+  "Atlantic/Madeira": {
+    "name": "Portugal",
+    "code": "PT"
+  },
+  "Atlantic/Azores": {
+    "name": "Portugal",
+    "code": "PT"
+  },
+  "Indian/Reunion": {
+    "name": "Réunion",
+    "code": "RE"
+  },
+  "Europe/Moscow": {
+    "name": "Russia",
+    "code": "RU"
+  },
+  "Europe/Kirov": {
+    "name": "Russia",
+    "code": "RU"
+  },
+  "Europe/Volgograd": {
+    "name": "Russia",
+    "code": "RU"
+  },
+  "Europe/Astrakhan": {
+    "name": "Russia",
+    "code": "RU"
+  },
+  "Europe/Saratov": {
+    "name": "Russia",
+    "code": "RU"
+  },
+  "Europe/Ulyanovsk": {
+    "name": "Russia",
+    "code": "RU"
+  },
+  "Europe/Samara": {
+    "name": "Russia",
+    "code": "RU"
+  },
+  "Asia/Yekaterinburg": {
+    "name": "Russia",
+    "code": "RU"
+  },
+  "Asia/Omsk": {
+    "name": "Russia",
+    "code": "RU"
+  },
+  "Asia/Novosibirsk": {
+    "name": "Russia",
+    "code": "RU"
+  },
+  "Asia/Barnaul": {
+    "name": "Russia",
+    "code": "RU"
+  },
+  "Asia/Tomsk": {
+    "name": "Russia",
+    "code": "RU"
+  },
+  "Asia/Novokuznetsk": {
+    "name": "Russia",
+    "code": "RU"
+  },
+  "Asia/Krasnoyarsk": {
+    "name": "Russia",
+    "code": "RU"
+  },
+  "Asia/Irkutsk": {
+    "name": "Russia",
+    "code": "RU"
+  },
+  "Asia/Chita": {
+    "name": "Russia",
+    "code": "RU"
+  },
+  "Asia/Yakutsk": {
+    "name": "Russia",
+    "code": "RU"
+  },
+  "Asia/Khandyga": {
+    "name": "Russia",
+    "code": "RU"
+  },
+  "Asia/Vladivostok": {
+    "name": "Russia",
+    "code": "RU"
+  },
+  "Asia/Ust-Nera": {
+    "name": "Russia",
+    "code": "RU"
+  },
+  "Asia/Magadan": {
+    "name": "Russia",
+    "code": "RU"
+  },
+  "Asia/Sakhalin": {
+    "name": "Russia",
+    "code": "RU"
+  },
+  "Asia/Srednekolymsk": {
+    "name": "Russia",
+    "code": "RU"
+  },
+  "Asia/Kamchatka": {
+    "name": "Russia",
+    "code": "RU"
+  },
+  "Asia/Anadyr": {
+    "name": "Russia",
+    "code": "RU"
+  },
+  "Africa/Kigali": {
+    "name": "Rwanda",
+    "code": "RW"
+  },
+  "Indian/Mahe": {
+    "name": "Seychelles",
+    "code": "SC"
+  },
+  "Europe/Stockholm": {
+    "name": "Sweden",
+    "code": "SE"
+  },
+  "Atlantic/St_Helena": {
+    "name": "St Helena",
+    "code": "SH"
+  },
+  "Europe/Ljubljana": {
+    "name": "Slovenia",
+    "code": "SI"
+  },
+  "Arctic/Longyearbyen": {
+    "name": "Svalbard & Jan Mayen",
+    "code": "SJ"
+  },
+  "Europe/Bratislava": {
+    "name": "Slovakia",
+    "code": "SK"
+  },
+  "Africa/Freetown": {
+    "name": "Sierra Leone",
+    "code": "SL"
+  },
+  "Europe/San_Marino": {
+    "name": "San Marino",
+    "code": "SM"
+  },
+  "Africa/Dakar": {
+    "name": "Senegal",
+    "code": "SN"
+  },
+  "Africa/Mogadishu": {
+    "name": "Somalia",
+    "code": "SO"
+  },
+  "America/Lower_Princes": {
+    "name": "St Maarten (Dutch)",
+    "code": "SX"
+  },
+  "Africa/Mbabane": {
+    "name": "Eswatini (Swaziland)",
+    "code": "SZ"
+  },
+  "Indian/Kerguelen": {
+    "name": "French S. Terr.",
+    "code": "TF"
+  },
+  "Africa/Lome": {
+    "name": "Togo",
+    "code": "TG"
+  },
+  "America/Port_of_Spain": {
+    "name": "Trinidad & Tobago",
+    "code": "TT"
+  },
+  "Pacific/Funafuti": {
+    "name": "Tuvalu",
+    "code": "TV"
+  },
+  "Africa/Dar_es_Salaam": {
+    "name": "Tanzania",
+    "code": "TZ"
+  },
+  "Europe/Kyiv": {
+    "name": "Ukraine",
+    "code": "UA"
+  },
+  "Africa/Kampala": {
+    "name": "Uganda",
+    "code": "UG"
+  },
+  "Pacific/Midway": {
+    "name": "US Minor Outlying Islands",
+    "code": "UM"
+  },
+  "Pacific/Wake": {
+    "name": "US Minor Outlying Islands",
+    "code": "UM"
+  },
+  "America/Detroit": {
+    "name": "United States",
+    "code": "US"
+  },
+  "America/Kentucky/Louisville": {
+    "name": "United States",
+    "code": "US"
+  },
+  "America/Kentucky/Monticello": {
+    "name": "United States",
+    "code": "US"
+  },
+  "America/Indiana/Indianapolis": {
+    "name": "United States",
+    "code": "US"
+  },
+  "America/Indiana/Vincennes": {
+    "name": "United States",
+    "code": "US"
+  },
+  "America/Indiana/Winamac": {
+    "name": "United States",
+    "code": "US"
+  },
+  "America/Indiana/Marengo": {
+    "name": "United States",
+    "code": "US"
+  },
+  "America/Indiana/Petersburg": {
+    "name": "United States",
+    "code": "US"
+  },
+  "America/Indiana/Vevay": {
+    "name": "United States",
+    "code": "US"
+  },
+  "America/Chicago": {
+    "name": "United States",
+    "code": "US"
+  },
+  "America/Indiana/Tell_City": {
+    "name": "United States",
+    "code": "US"
+  },
+  "America/Indiana/Knox": {
+    "name": "United States",
+    "code": "US"
+  },
+  "America/Menominee": {
+    "name": "United States",
+    "code": "US"
+  },
+  "America/North_Dakota/Center": {
+    "name": "United States",
+    "code": "US"
+  },
+  "America/North_Dakota/New_Salem": {
+    "name": "United States",
+    "code": "US"
+  },
+  "America/North_Dakota/Beulah": {
+    "name": "United States",
+    "code": "US"
+  },
+  "America/Denver": {
+    "name": "United States",
+    "code": "US"
+  },
+  "America/Boise": {
+    "name": "United States",
+    "code": "US"
+  },
+  "America/Los_Angeles": {
+    "name": "United States",
+    "code": "US"
+  },
+  "America/Anchorage": {
+    "name": "United States",
+    "code": "US"
+  },
+  "America/Juneau": {
+    "name": "United States",
+    "code": "US"
+  },
+  "America/Sitka": {
+    "name": "United States",
+    "code": "US"
+  },
+  "America/Metlakatla": {
+    "name": "United States",
+    "code": "US"
+  },
+  "America/Yakutat": {
+    "name": "United States",
+    "code": "US"
+  },
+  "America/Nome": {
+    "name": "United States",
+    "code": "US"
+  },
+  "America/Adak": {
+    "name": "United States",
+    "code": "US"
+  },
+  "Pacific/Honolulu": {
+    "name": "United States",
+    "code": "US"
+  },
+  "Asia/Tashkent": {
+    "name": "Uzbekistan",
+    "code": "UZ"
+  },
+  "Europe/Vatican": {
+    "name": "Vatican City",
+    "code": "VA"
+  },
+  "America/St_Vincent": {
+    "name": "St Vincent",
+    "code": "VC"
+  },
+  "America/Tortola": {
+    "name": "Virgin Islands (UK)",
+    "code": "VG"
+  },
+  "America/St_Thomas": {
+    "name": "Virgin Islands (US)",
+    "code": "VI"
+  },
+  "Asia/Ho_Chi_Minh": {
+    "name": "Vietnam",
+    "code": "VN"
+  },
+  "Pacific/Wallis": {
+    "name": "Wallis & Futuna",
+    "code": "WF"
+  },
+  "Asia/Aden": {
+    "name": "Yemen",
+    "code": "YE"
+  },
+  "Indian/Mayotte": {
+    "name": "Mayotte",
+    "code": "YT"
+  },
+  "Africa/Lusaka": {
+    "name": "Zambia",
+    "code": "ZM"
+  },
+  "Africa/Harare": {
+    "name": "Zimbabwe",
+    "code": "ZW"
+  }
+}
