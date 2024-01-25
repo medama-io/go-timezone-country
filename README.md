@@ -47,6 +47,14 @@ func main() {
 }
 ```
 
+## Contribution
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+The data is updated from time to time using the `scripts/update.sh` script. In the case of timezone differences according to the IANA standard, we print the discrepancies while running the script and maintain the old timezone mappings in the `data/missing.json` file. This data can be corrobated using the [unicode-org/cldr-json](https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-bcp47/bcp47/timezone.json) repository.
+
+It's also worth tracking the TC39 Canonical Timezone proposal, which is currently in Stage 3. This may be a future option to map timezones to countries natively and more accurately. The proposal can be found in the [tc39/proposal-canonical-tz](https://github.com/tc39/proposal-canonical-tz).
+
 ## License
 
 MIT
