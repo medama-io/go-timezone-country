@@ -43,7 +43,7 @@ func main() {
     if err != nil {
         panic(err)
     }
-    fmt.Println(countryName) // Britain (UK)
+    fmt.Println(countryName) // United Kingdom
 }
 ```
 
