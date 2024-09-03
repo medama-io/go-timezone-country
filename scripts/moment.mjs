@@ -5,10 +5,6 @@ import fs from "fs/promises";
  */
 
 /**
- * @typedef {Record<string, string> CountryCodeMap
- */
-
-/**
  * Downloads the latest moment timezone data from the Moment Timezone GitHub repository.
  */
 const downloadMoment = async () => {
@@ -73,8 +69,8 @@ const parseTimezones = async () => {
   const timezones = {};
 
   for (const zone of Object.keys(zones)) {
-    const country = countries[zones[zone].countries[0]];
-    timezones[zone] = country.abbr;
+    const country = countries[ zones[ zone ].countries[ 0 ] ];
+    timezones[ zone ] = country.abbr;
   }
 
   // Sort the timezones by name.
@@ -84,8 +80,8 @@ const parseTimezones = async () => {
   const missingTimezones = JSON.parse(
     await fs.readFile("../data/missing.json")
   );
-  for (const [zone, country] of Object.entries(missingTimezones)) {
-    timezonesSorted[zone] = country;
+  for (const [ zone, country ] of Object.entries(missingTimezones)) {
+    timezonesSorted[ zone ] = country;
   }
 
   // Check for missing timezones.
@@ -98,7 +94,7 @@ const parseTimezones = async () => {
 
   for (const code of Object.values(timezonesSorted)) {
     const name = nameFormatter.of(code);
-    countryCodes[code] = name;
+    countryCodes[ code ] = name;
   }
 
   const countryCodesSorted = sortMap(countryCodes);
@@ -111,6 +107,25 @@ const parseTimezones = async () => {
   await fs.writeFile(
     "../data/codecountry.json",
     JSON.stringify(countryCodesSorted, null, 2)
+  );
+
+  // Make direct map of timezone to full country name. We rely on the country code parse as
+  // Moment's data is slightly outdated e.g. Turkey --> Türkiye compared to Intl.DisplayNames.
+  const timezoneCountry = {};
+  for (const [ zone, code ] of Object.entries(timezonesSorted)) {
+    timezoneCountry[ zone ] = countryCodes[ code ];
+  }
+
+  const timezoneCountrySorted = sortMap(timezoneCountry);
+
+  await fs.writeFile(
+    "../data/tzcountry.json",
+    JSON.stringify(timezoneCountrySorted, null, 2)
+  );
+  // No white-space variant for embedding into Go source code.
+  await fs.writeFile(
+    "../data/tzcountry.min.json",
+    JSON.stringify(timezoneCountrySorted)
   );
 };
 

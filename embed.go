@@ -4,8 +4,5 @@ import (
 	_ "embed"
 )
 
-//go:embed data/tzcode.json
-var TimezoneToCode string
-
-//go:embed data/codecountry.json
-var CodeToCountry string
+//go:embed data/tzcountry.min.json
+var TimezoneToCountry string

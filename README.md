@@ -1,6 +1,6 @@
 # go-timezone-country
 
-This library converts timezones obtained from `Intl.DateTimeFormat().resolvedOptions().timeZone` to ISO 3166-1 alpha-2 country codes, which are further mapped to full country names.
+This library converts timezones obtained from `Intl.DateTimeFormat().resolvedOptions().timeZone` to full country names.
 
 ## Installation
 
@@ -19,27 +19,14 @@ import (
 )
 
 func main() {
-    // Load the timezone to country code map during startup
-    timezoneCodeMap, err := tz.NewTimezoneCodeMap()
+    // Load the timezone to country name map during startup.
+    timezoneNameMap, err := tz.NewTimezoneCountryMap()
     if err != nil {
         panic(err)
     }
 
-    // Obtain the country code from the timezone
-    countryCode, err := timezoneCodeMap.GetCountryCode("Europe/London")
-    if err != nil {
-        panic(err)
-    }
-    fmt.Println(countryCode) // GB
-
-    // Load the country code to country name map during startup
-    countryNameMap, err := tz.NewCountryNameMap()
-    if err != nil {
-        panic(err)
-    }
-
-    // Obtain the country name from the timezone
-    countryName, err := countryNameMap.GetCountryName("Europe/London")
+    // Obtain the country name from the timezone.
+    countryName, err := timezoneNameMap.GetCountryName("Europe/London")
     if err != nil {
         panic(err)
     }
